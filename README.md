@@ -24,7 +24,7 @@
 
 主なアーキテクチャは以下
 
-![AWS Architecture](./architecture.drawio.svg)
+![AWS Architecture](./docs/img/architecture.drawio.svg)
 
 - Frontend Application - Vue.js
 - Backend Application - Java
@@ -77,3 +77,31 @@
 - assigned_interests
   - interest_id char(36) not_null
   - user_id char(36) not_null
+
+## Project setup
+
+```bash
+yarn install
+```
+
+### Compiles and hot-reloads for development
+
+```bash
+yarn serve
+```
+
+### Compiles and minifies for production
+
+```bash
+yarn build
+```
+
+### Lints and fixes files
+
+```bash
+yarn lint
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://cli.vuejs.org/config/).
