@@ -2,9 +2,9 @@ import { PAGES } from '@/router/pages';
 
 export default [
   {
-    path: '/',
-    name: PAGES.TOP,
-    component: () => import('@/components/pages/TopView.vue'),
+    path: '/:userId',
+    name: PAGES.USER,
+    component: () => import('@/components/pages/UserView.vue'),
     meta: { title: 'TOP', saveScroll: false },
     props: true,
   },
