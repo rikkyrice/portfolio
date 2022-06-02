@@ -44,7 +44,7 @@ export default class App extends Vue {
 <style lang="scss">
 @import "@/style.scss";
 #app {
-  font-family: Lato, "Noto Sans Japanese", sans-serif;
+  font-family: Lato, "游 ゴシック", "Noto Sans Japanese", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
