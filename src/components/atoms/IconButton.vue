@@ -8,6 +8,8 @@
     :width="width"
     :height="height"
     :style="style"
+    :href="href"
+    :target="target"
     @click="handleClick()"
     @click.stop="handleClickStopOption()"
   >
@@ -47,6 +49,8 @@ export default class IconButton extends mixins(UtilMixin) {
   @Prop() width!: string;
   @Prop() height!: string;
   @Prop() iconHeight!: string;
+  @Prop() href!: string;
+  @Prop() target!: string;
 
   get style() {
     return this.outlined
