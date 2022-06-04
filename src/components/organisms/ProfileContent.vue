@@ -66,6 +66,7 @@
             <v-img 
               :src="profilePicUrl" 
               max-width="500px"
+              max-height="500px"
               class="rounded-xl"
             >
               <template v-slot:placeholder>
